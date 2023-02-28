@@ -1,0 +1,200 @@
+body {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+    background-color: rgb(98, 168, 222);
+    display: flex;
+    position: fixed;
+    top:0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    color: aliceblue;
+    font-size: 25px;
+  }
+  
+  .logo {
+    display: inline-block;
+    padding: 15px;
+    background-color: rgb(54, 111, 137);
+  }
+  .fa-solid {
+    padding-right: 15px;
+  }
+  
+  ul {
+    display: flex;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    padding: 15px;
+  }
+
+  li:hover {
+    background-color: rgb(112, 124, 134)
+  }
+
+
+/* Tooltip container */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; 
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 90px;
+    top: 80%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-size: 15px;
+    border: 1px solid black;
+    padding: 3px 0;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+  
+  .logo:hover {
+    background-color: rgb(112, 124, 134);
+    color: black;
+  }
+  
+  /* main content */
+  
+  .container {
+    display: grid;
+    grid-template-columns: 0.7fr 1.5fr 0.5fr;
+    margin: 60px 50px;
+    gap: 20px;
+  }
+  
+  .box-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  
+  /* style section 1 , article 1 */
+  .art {
+      display: flex;
+      flex-direction: column;
+      box-shadow: 0 0 20px -10px;
+      border-radius: 5px;
+    }
+  
+  .wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    margin: 30px 0;
+  }
+  
+  .align {
+    display: flex;
+  }
+  
+  .font-awesome {
+    color: rgba(74, 88, 100, 0.515);
+    margin: 20px 20px;
+  }
+  
+  .info {
+    margin: 20px 10px;
+    font-size: 20px;
+  }
+  
+  
+  /* style section 1 article 2 */
+  
+  .btn-3 {
+      width: 100%;
+      margin: 0;
+      text-align: left;
+      font-size: 20px;
+      padding: 7px 15px;
+  }
+  .text {
+      margin: 20px 30px;
+      font-size: 20px;
+  }
+  
+  .pictures {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 10px 30px;
+  }
+  .my-photos {
+      width: 140px;
+  }
+  
+  /* style section 1 article 3 */
+  .interests {
+    margin: 20px 20px;
+    font-size: 20px ;
+  }
+  .more-buttons {
+   display: flex;
+   gap: 4px;
+   margin: 5px 20px;
+  }
+  .btn-4 {
+    margin:0;
+    padding: 1px 5px;
+    font-size: 13px;
+  }
+   .dark-blue {
+    background-color: rgba(10, 44, 102, 0.808);
+   }
+  
+   .grey {
+    background-color: rgb(110, 166, 216);
+   }
+  
+   .white {
+    background-color: rgb(185, 201, 214);
+   }
+  
+  
+  /* style section 1 article 4 */
+
+  .art-0 {
+    border: 1px solid rgb(177, 169, 169);
+    background-color: rgb(204, 209, 211);
+  }
+  .hey {
+    margin: 15px 20px;
+    font-size: 17px;
+  }
+   .squarex{
+    position: relative;
+    background-color: rgb(172, 166, 166);
+    padding: 10px;
+    margin-left: 190px ;
+  } 
+  
+  .ppl {
+    font-size: 18px;
+    margin:30px 20px;
+  }
+  
